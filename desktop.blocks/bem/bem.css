@@ -1,0 +1,59 @@
+.bem, .menu, .header, .content, .footer {
+    color: black;
+    display: flex;
+    background-color: rgb(157, 153, 153);
+    font-size: 20px;
+    
+}
+
+.bem {
+    justify-content: space-between;
+}
+
+.bem__logo {
+    margin: 30px 30px 30px 50px;
+    font-size: 30px;
+}
+
+.bem__search, .input {
+    margin: 30px 0;
+    height: 30px;
+}
+
+.bem__number {
+    margin: 30px 50px 30px 0;
+    font-size: 30px;
+}
+
+.button {
+    height: 30px;
+}
+
+.menu {
+    justify-content: space-evenly;
+}
+
+.content, .footer {
+    justify-content: space-evenly;
+}
+.content__sidebar{
+   min-width: 100px; 
+
+    margin-bottom: 10px;
+}
+.content{
+    padding: 20px;
+    list-style-type: disc; 
+    padding-left: 20px;
+    height: 500px;
+    text-align: justify;
+}
+
+.header{
+    justify-content: center;
+    padding-top: 40px;
+}
+
+@media screen {
+    
+}

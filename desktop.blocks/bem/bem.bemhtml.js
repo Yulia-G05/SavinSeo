@@ -1,0 +1,3 @@
+block('bem')(
+    js()(true)
+);
