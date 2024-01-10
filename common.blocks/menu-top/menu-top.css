@@ -1,0 +1,31 @@
+.menu-top {
+
+  &__ul{
+    list-style: none;
+    padding: 0rem;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+    &_level_1{
+      display: flex;
+      gap: 2.5rem;
+      flex-wrap: nowrap;
+      .link{
+        color: #fff;
+        text-decoration: none;
+        white-space: nowrap;
+        padding-bottom: 0.0625rem;
+        display: inline-block;
+        position: relative;
+      }
+     
+      
+      .link_active{
+        font-weight: 700;
+      }
+    }
+   
+  }
+
+ 
+}

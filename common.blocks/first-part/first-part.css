@@ -1,0 +1,11 @@
+.first-part {
+    height: 38.5rem;
+    width: auto;
+}
+@media screen and (max-width: 1200px) {
+    .first-part {
+        height: 38.5rem; 
+    }
+}
+
+

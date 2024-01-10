@@ -1,0 +1,85 @@
+.icon {
+  
+    text-align: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &_size{
+        &_xxs {
+            width: 0.25rem;
+            height: 0.25rem;
+        }
+        &_xs {
+            width: 0.5rem;
+            height: 0.5rem;
+        }
+        &_s {
+            width: 0.75rem;
+            height: 0.75rem;
+        }
+        &_m {
+            width: 1rem;
+            height: 1rem;
+        }
+        &_l {
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+        &_xl {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+        &_xxl {
+            width: 2rem;
+            height: 2rem;
+        }
+        &_xxxl {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+        &_xxxxl, &_4xl {
+            width: 3rem;
+            height: 3rem;
+        }
+        &_xxxxxl, &_5xl {
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+        &_xxxxxxl, &_6xl {
+            width: 4rem;
+            height: 4rem;
+        }
+        &_xxxxxxxl, &_7xl {
+            width: 4.5rem;
+            height: 4.5rem;
+        }
+        &_xxxxxxxxl, &_8xl {
+            width: 7.6875rem;
+            height: 7.6875rem;
+        }
+        &_bg{
+            width: auto;
+            height: 38.75rem;
+        }
+      }
+
+    &_burger{
+        background-image: url('../../img/icon/burger.svg');
+      }   
+      &_bg{
+        background-image: url('../../../img/icon/bg.svg');
+        height: 100%;
+        
+       
+      }
+      &_line {
+        background-image: url('../../../img/icon/scrolling.svg');
+        
+    }
+    &_bgfooter {
+        background-image: url('../../../img/icon/bgfooter.svg');
+        
+    }
+}

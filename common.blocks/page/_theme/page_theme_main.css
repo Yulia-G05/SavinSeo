@@ -1,0 +1,76 @@
+.page_theme_main {
+    
+    font-family: 'Poppins', sans-serif;
+    color: var(--Dark, black);
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+    min-width: 360px;
+    -webkit-overflow-scrolling: touch;
+    
+  }
+  html{
+      font-size: 10px;
+  }
+  body{
+      font-size: 1.6rem;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  p{
+      padding: 0;
+      margin: 0;
+  }
+  ul, ol{
+      margin: 0;
+      padding: 0 0 0 16px;
+  }
+  
+  h1, h2, h3, h4, .h1, .h2, .h3, .h4{
+    margin: 0;
+  }
+  
+  h1, .h1{
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 48px */
+    text-transform: uppercase;
+    @media (min-width: 641px){
+      font-size: 4.8rem;
+    }
+  }
+  h2, .h2{
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 36px */
+    text-transform: uppercase;
+  }
+  h3, .h3{
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+    text-transform: uppercase;
+  }
+  h4, .h4{
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 26.4px */
+  }
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .s-message{
+    display: none;
+  }

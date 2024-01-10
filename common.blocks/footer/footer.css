@@ -1,0 +1,15 @@
+.footer {
+ height: 14.875rem;
+ width: auto;
+ background-color: black; 
+ display: flex;
+ justify-content: center;
+
+ align-items: center;
+ 
+}
+.icon_bgfooter {
+        position: absolute; 
+        right: 14rem;
+}
+

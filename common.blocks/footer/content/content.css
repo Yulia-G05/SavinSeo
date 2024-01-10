@@ -1,0 +1,6 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 71.875rem;
+  height: 9.875rem;
+}
