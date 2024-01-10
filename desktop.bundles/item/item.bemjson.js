@@ -12,7 +12,7 @@ module.exports = {
         { elem: 'link', attrs: { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap' } }
     ],
     scripts: [{ elem: 'js', url: 'item.min.js' }],
-    mods: { theme: 'islands' },
+    mods: { theme: 'main' },
     content: [
             { block: 'first-part'} ,
             {block:'footer'}
