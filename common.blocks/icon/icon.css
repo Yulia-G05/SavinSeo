@@ -63,6 +63,18 @@
             width: auto;
             height: 38.75rem;
         }
+        &_pic{
+            height: 278px;
+            width: 100%;
+        }
+        &_pic-2{
+            width:282%;
+            height: 220px;
+        }
+        &_small{
+            width: 200px;
+            height: 144px;
+        }
       }
 
     &_burger{
@@ -81,5 +93,14 @@
     &_bgfooter {
         background-image: url('../../../img/icon/bgfooter.svg');
         
+    }
+    &_pic{
+        background-image: url('../../../img/icon/pic.svg');
+    }
+    &_pic-2{
+        background-image: url('../../../img/icon/pic-1.svg');
+    }
+    &_small{
+        background-image: url('../../../img/icon/small.svg');
     }
 }

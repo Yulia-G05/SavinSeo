@@ -1,4 +1,4 @@
-modules.define('content2', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('pushy', ['i-bem-dom'], function(provide, bemDom) {
 
 provide(bemDom.declBlock(this.name, {
     onSetMod: {

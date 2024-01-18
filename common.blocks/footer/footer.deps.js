@@ -1,5 +1,7 @@
 ({
     shouldDeps: [
-        {block:'content'}
+        {block:'logo'},
+        {block:'menu-top'}
+
     ]
 })

@@ -34,16 +34,12 @@ block('header').content()(function() {
                         {
                             tag: 'div',
                             attrs: {
-                                class: 'hamburger'
+                                class: 'hamburger menu-icon'
                             }
-                        },
-                        {
-                            elem: 'menu',
-                            tag: 'div',
-                            content: 'Menu Content' // Adjust the content as needed
                         }
                     ]
-                }
+                },
+                { block: 'pushy', mix: { block: 'pushy-left' }},
             ]
         }
     ];

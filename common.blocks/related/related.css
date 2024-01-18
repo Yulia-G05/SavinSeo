@@ -1,0 +1,53 @@
+.related .Frame{
+    padding: 56px 40px 56px 40px;
+    height: 352px;
+    width: 1280px;
+}
+.Frame__text{
+    color: black;
+font-size: 40px;
+font-family: Poppins;
+font-weight: 2600;
+line-height: 56px;
+word-wrap: break-word
+}
+.card-block{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 1280px) {
+    .card-block{
+        flex-direction: column;
+        width: 608px;
+    }
+    .related{
+        width: auto;
+        height: 520px;
+        
+    }
+    .card{
+        padding-top: 24px;
+        width: 608px;
+    }
+   .related .Frame{
+        width: 608px;
+        padding: 0 0 0 0;
+    }
+}
+@media screen and (max-width: 640px) {
+    .div{
+        height: 116px;
+        width: 192px;
+        padding-left: 10px;
+    }
+    .card-block{
+        width: 192px;
+    }
+    .related .Frame{
+        width: 328px;
+
+    }
+    .related .Frame__text{
+        width: 291px;
+    }
+}

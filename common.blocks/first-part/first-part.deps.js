@@ -1,6 +1,7 @@
 ({
     shouldDeps: [
-        { block: 'header' }
+        { block: 'header' },
+        {block:'tag'}
         // { block: 'banner' }
     ]
 })

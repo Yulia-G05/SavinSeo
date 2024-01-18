@@ -3,7 +3,8 @@ block('first-part').content()(function() {
         {
             content:[
                 {block:'header'},
-                {block:'banner'}
+                {block:'banner'},
+                {block:'tag'}
         ]     
         }
     ];

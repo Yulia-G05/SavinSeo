@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    justify-content: start;
+}
+.title__text,.title__text2, .bady__text{
+    color: black;
+font-size: 12px;
+font-family: Poppins;
+font-weight: 800;
+text-transform: uppercase;
+line-height: 14.40px;
+word-wrap: break-word
+}
+.title{
+    display: flex;
+}
+.title__text, .title__text2{
+    width: 100px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title__text2{
+    background-color: #f2f2f2;
+}
+.bady__text{
+    padding-top: 8px;
+    color: black;
+font-size: 16px;
+font-family: Poppins;
+font-weight: 2000;
+text-transform: uppercase;
+line-height: 24.40px;
+word-wrap: break-word
+}
+.card-block{
+    padding-top: 40px;
+}
+.div{
+    
+    align-items: center;
+}
+@media screen and (max-width:640px){
+    .card{
+        width: 328px;
+        padding-left:10px ;
+    }
+}

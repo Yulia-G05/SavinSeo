@@ -1,15 +1,101 @@
 .footer {
- height: 14.875rem;
- width: auto;
- background-color: black; 
- display: flex;
- justify-content: center;
-
- align-items: center;
- 
+    height: 238px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .icon_bgfooter {
-        position: absolute; 
-        right: 14rem;
+    position: absolute;
+    right: 14rem;
+}
+.conteiner__wrapper {
+    height: 158px;
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .logo {
+    padding: 0;
+}
+.content__question {
+    color: white;
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 33.6px;
+    word-wrap: break-word;
 }
 
+.link__email {
+    font-size: 28px;
+    color: var(--Blue, #5460f2);
+
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: underline;
+    line-height: 33.6px;
+    word-wrap: break-word;
+}
+.footer .button {
+    display: flex;
+
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    margin-right: -7rem;
+    background-color: var(--Blue, #5460f2);
+    width: 122px;
+    height: 40px;
+}
+@media screen and (max-width: 1200px) {
+    .conteiner__wrapper {
+        padding: 0px 70px 0px 60px;
+        height: 330px;
+    }
+    .footer {
+        position: relative;
+        height: 330px;
+    }
+
+    .content__text {
+        position: absolute;
+        bottom: 30px;
+        right: 40px;
+    }
+    .menu-top__ul {
+        flex-direction: column;
+        line-height: 4px;
+    }
+    .conteiner__block-a .image {
+        padding-bottom: 20px;
+    }
+    .conteiner__block-b .content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .footer {
+        height: 694px;
+    }
+    .conteiner__wrapper {
+        
+        flex-direction: column;
+        align-items: normal;
+        height: 494px;
+        gap: 50px;
+    }
+    .conteiner__block-b  {
+        order: -1;
+       
+    }
+    .content__text {
+       
+        right: 170px;
+    }
+     
+}

@@ -10,8 +10,8 @@
     max-width: 1512px;
     display: flex;
     background-color: black;
-    height: 5rem;
-    width: 80rem;
+    height: 80px;
+    width: 1280px;
     align-items: center;
     justify-content: space-between;
 }
@@ -20,11 +20,12 @@
 }
 
 .header .button {
+    font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
     margin-right: -7rem;
     background-color: #424FE6;
-    width: 7.625rem;
-    height: 2.5rem;
+    width: 122px;
+    height: 40px;
     position: absolute;
     right: 150px;
 }
@@ -69,7 +70,7 @@ cursor: pointer;
 opacity: 0;
 }
 .hamburger,
-.toggle-menu {
+.toggle-menu,.pushy {
 
 display: none;
 }
@@ -93,25 +94,27 @@ display: none;
     .hamburger,
     .toggle-menu {
         display: block;
+        right: 16px; 
     }
-    .menu-top {
+   .header .menu-top {
         display: none;
     }
 
-    .header {
-        padding: 10px 20px;
-    }
+    
     .menu { 
-        justify-content: start;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        right: 0; /* Fix the typo here */
-        background-color: rgb(255, 255, 255);
-        width: 300px;
-        height: 100%;
-        padding-top: 65px;
+        border-top: 1px solid #e5e5e5;
+        box-shadow: 0 5px 5px 0 rgba(0,0,0,.05);
+        background: white;
+        padding: 30px 0;
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        left: 0;
+        opacity: 0;
+        z-index: 5;
+        transform: scale3d(0,0,0);
+        transform-origin: top left;
+        transition: .4s cubic-bezier(0.39, 0.575, 0.565, 1);
     }
 
     .navigation input:checked ~ .hamburger {
@@ -142,14 +145,15 @@ display: none;
     .header .button {
         font-family: 'Poppins', sans-serif;
         background-color: #424FE6;
-        width: 7.625rem;
-        height: 2.5rem;
+        width: 122px;
+        height: 40px;
         margin-right: 1rem; /* Adjust the margin as needed */
     }
     @media screen and (max-width: 463px){
 
    .logo{
-    padding-left: 0rem;
+
+    right: 16px;
    }
    
     .navigation__menu{

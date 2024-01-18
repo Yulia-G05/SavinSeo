@@ -1,4 +1,4 @@
-modules.define('footertext', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('tag', ['i-bem-dom'], function(provide, bemDom) {
 
 provide(bemDom.declBlock(this.name, {
     onSetMod: {

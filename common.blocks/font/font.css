@@ -1,0 +1,110 @@
+.font {
+    /* colors */
+    &_color_black{
+      color: var(--Dark, #0D0D0D);
+    }
+    &_color_white{
+      color: var(--White, #FFF);
+    }
+    &_color_Blue{
+      color: var(--Blue, #5460F2);
+    }
+    &_color_BlueHover{
+        color: var(--BlueHover, #424FE6);
+      }
+      &_color_BlueHover{
+        color: var(--BlueHover, #424FE6);
+      }
+  
+  
+    /* size */
+    &_size_m{
+      font-size: 1rem;
+    }
+    &_size_l{
+      font-size: 1.25rem;
+    }
+    &_size_xl{
+      font-size: 1.5rem;
+    }
+    &_size_xxl{
+      font-size: 2rem;
+    }
+    &_size_xxxl{
+      font-size: 2.5rem;
+    }
+    &_size_xxxxl{
+      font-size: 3rem;
+    }
+  
+    /*weight*/
+    &_weight_normal{
+      font-weight: 400;
+    }
+    &_weight_medium{
+      font-weight: 500;
+    }
+    &_weight_bold{
+      font-weight: 700;
+    }
+  
+    /*body text*/
+    &_body_20R{
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 28px */
+    }
+    &_body_16B{
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 148%; /* 23.68px */
+    }
+    &_body_16R{
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 148%; /* 23.68px */
+    }
+    &_body_16LI{
+      font-size: 1.6rem;
+      font-style: italic;
+      font-weight: 300;
+      line-height: 140%; /* 22.4px */
+    }
+    &_fact_60{
+      font-family: 'Roboto Serif', serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%;
+      text-transform: uppercase;
+      font-size: 6rem;
+      @media (min-width: 1080px){
+        font-size: 9rem;
+      }
+    }
+    &_fact_80{
+      font-family: 'Roboto Serif', serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%;
+      text-transform: uppercase;
+      font-size: 8rem;
+      @media (min-width: 1080px){
+        font-size: 130px;
+      }
+    }
+    &_small_14{
+      font-size: 1.4rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 16.8px */
+    }
+    &_small_12{
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%; /* 12px */
+    }
+  }

@@ -5,6 +5,7 @@
       { block: 'menu-top' },
       {block:'button'},
       {block:'icon'},
-      { block: 'link'}
+      { block: 'link'},
+      {block:'pushy'}
     ]
 })

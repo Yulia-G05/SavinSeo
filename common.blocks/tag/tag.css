@@ -1,0 +1,140 @@
+.artical{
+    width: 792px;
+    height: 1749px;
+    padding-top: 40px;
+    
+   
+}
+.h2__text{
+    padding-bottom: 24px;
+    color: black;
+font-size: 40px;
+font-family: Poppins;
+font-weight: 800;
+line-height: 56px;
+word-wrap: break-word
+}
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artical__text {
+    padding: 16px 0 0 0 ; 
+    color: black;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 22.40px;
+    word-wrap: break-word;
+
+ 
+}
+.pic{
+    padding-top: 40px;
+}
+.pic__text{
+    padding-top: 16px;
+    color: black;
+font-size: 16px;
+font-family: Poppins;
+font-weight: 600;
+line-height: 22.40px;
+word-wrap: break-word
+}
+.artical__ol, .Frame__ol , .artical__ul{
+    padding-top: 24px;
+    color: black;
+font-size: 16px;
+font-family: Poppins;
+font-weight: 600;
+line-height: 22.40px;
+word-wrap: break-word;
+
+}
+
+.Frame__text{
+    padding-top: 24px;
+    color: black;
+font-size: 28px;
+font-family: Poppins;
+font-weight: 1000;
+line-height: 39.20px;
+word-wrap: break-word
+}
+.Frame__text1{
+    font-size: 16px;
+    padding-top: 16px;
+    font-family: Poppins;
+    color: black;
+    font-weight: 600;
+    line-height: 22.40px;
+    word-wrap: break-word
+}
+.Frame-2{
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.Frame-2__text{
+    padding: 0 24px 0 0;
+    color: black;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 1000;
+    line-height: 22.40px;
+    word-wrap: break-word;    
+}
+@media screen and (max-width: 825px) {
+    .artical{
+        padding: 16px 16px 16px 16px;
+    }
+    .Frame-2{
+     flex-direction: column;
+     
+     
+    }
+    .Frame-2 .icon{
+        width: 100%;
+        height: 278px;
+        order: -1;
+        background-image: url('../../../img/icon/picmore.svg');
+        justify-content: center;
+    }
+    .Frame-2__text{
+        padding-top:24px ;
+    }
+    
+}
+@media screen and (max-width: 640px) {
+   .artical .icon{
+    height: 180px;
+   }
+}
+@media screen and (max-width: 400px) {
+    .artical .icon{
+     display: block;
+    }
+ }
+/* table {
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 22.40px;
+    word-wrap: break-word
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+} */
